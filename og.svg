@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="RevSageAI — Sell to the mind, not the funnel.">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6F4FB"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="50%" stop-color="#D946EF"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="120" cy="120" r="320" fill="url(#glowA)"/>
+  <circle cx="1080" cy="510" r="320" fill="url(#glowB)"/>
+
+  <!-- subtle grid -->
+  <g stroke="#7C3AED" stroke-opacity="0.06" stroke-width="1">
+    <path d="M0 100h1200M0 200h1200M0 300h1200M0 400h1200M0 500h1200"/>
+    <path d="M100 0v630M200 0v630M300 0v630M400 0v630M500 0v630M600 0v630M700 0v630M800 0v630M900 0v630M1000 0v630M1100 0v630"/>
+  </g>
+
+  <!-- Logo mark -->
+  <g transform="translate(80, 80)">
+    <rect width="84" height="84" rx="20" fill="#FFFFFF" stroke="#EDE9FE"/>
+    <path d="M18 60 L42 38 L66 60" stroke="url(#grad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M18 42 L42 20 L66 42" stroke="url(#grad)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+  <text x="184" y="135" font-family="Geist, system-ui, sans-serif" font-size="34" font-weight="600" fill="#1F1B2E" letter-spacing="-0.5">RevSage<tspan fill="url(#grad)">AI</tspan></text>
+
+  <!-- Eyebrow -->
+  <g transform="translate(80, 215)">
+    <rect width="380" height="38" rx="19" fill="#EDE9FE" stroke="#7C3AED" stroke-opacity="0.20"/>
+    <circle cx="22" cy="19" r="4" fill="url(#grad)"/>
+    <text x="36" y="25" font-family="ui-monospace, Geist Mono, monospace" font-size="13" font-weight="500" fill="#7C3AED" letter-spacing="2">PSYCHOLOGY-DRIVEN AI · B2B REVENUE</text>
+  </g>
+
+  <!-- Headline -->
+  <text x="80" y="340" font-family="Fraunces, Georgia, serif" font-size="92" font-weight="420" fill="#1F1B2E" letter-spacing="-2">Sell to the <tspan font-style="italic" fill="url(#grad)">mind</tspan>,</text>
+  <text x="80" y="430" font-family="Fraunces, Georgia, serif" font-size="92" font-weight="420" fill="#1F1B2E" letter-spacing="-2">not the funnel.</text>
+
+  <!-- Sub -->
+  <text x="80" y="495" font-family="Geist, system-ui, sans-serif" font-size="22" font-weight="400" fill="#4F4A63">Read every buyer. Map every committee. Close more deals.</text>
+
+  <!-- Pills -->
+  <g transform="translate(80, 540)">
+    <rect width="170" height="40" rx="20" fill="#FFFFFF" stroke="#1F1B2E" stroke-opacity="0.14"/>
+    <text x="20" y="26" font-family="Geist, system-ui, sans-serif" font-size="14" fill="#4F4A63">DISC profiling</text>
+    <rect x="184" width="220" height="40" rx="20" fill="#FFFFFF" stroke="#1F1B2E" stroke-opacity="0.14"/>
+    <text x="204" y="26" font-family="Geist, system-ui, sans-serif" font-size="14" fill="#4F4A63">Committee mapping</text>
+    <rect x="418" width="200" height="40" rx="20" fill="#FFFFFF" stroke="#1F1B2E" stroke-opacity="0.14"/>
+    <text x="438" y="26" font-family="Geist, system-ui, sans-serif" font-size="14" fill="#4F4A63">Channel rewriter</text>
+  </g>
+
+  <!-- Right-side stats -->
+  <g transform="translate(800, 220)">
+    <rect width="320" height="320" rx="24" fill="#FFFFFF" stroke="#EDE9FE"/>
+    <text x="30" y="60" font-family="ui-monospace, Geist Mono, monospace" font-size="11" font-weight="600" fill="#7C3AED" letter-spacing="2">RESULTS · 90 DAYS</text>
+
+    <text x="30" y="135" font-family="Fraunces, Georgia, serif" font-size="62" font-weight="420" fill="url(#grad)" letter-spacing="-2">+30%</text>
+    <text x="30" y="165" font-family="Geist, system-ui, sans-serif" font-size="14" fill="#4F4A63">Higher win rate</text>
+
+    <text x="30" y="225" font-family="Fraunces, Georgia, serif" font-size="62" font-weight="420" fill="url(#grad)" letter-spacing="-2">3.2×</text>
+    <text x="30" y="255" font-family="Geist, system-ui, sans-serif" font-size="14" fill="#4F4A63">Forecast accuracy</text>
+
+    <text x="30" y="300" font-family="Geist, system-ui, sans-serif" font-size="13" fill="#8B8597">Trusted by 500+ B2B revenue teams.</text>
+  </g>
+</svg>
