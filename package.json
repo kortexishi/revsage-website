@@ -1,0 +1,15 @@
+{
+  "name": "revsage-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RevSageAI marketing site — psychology-driven AI for revenue teams.",
+  "scripts": {
+    "dev": "python3 -m http.server 8080",
+    "start": "python3 -m http.server 8080",
+    "build": "echo 'Static site — no build step.'",
+    "format": "echo 'No formatter configured.'"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
